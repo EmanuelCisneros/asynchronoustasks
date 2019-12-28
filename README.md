@@ -1,21 +1,3 @@
-[![HitCount](http://hits.dwyl.io/ro6ley/flask-celery-demo.svg)](http://hits.dwyl.io/ro6ley/flask-celery-demo)
-
-# Ping! 
-
-This repository contains the code for this [blogpost](https://stackabuse.com/asynchronous-tasks-using-flask-redis-and-celery/) on [StackAbuse](https://stackabuse.com/).
-
-## Getting Started
-
-### Prerequisites
-
-Kindly ensure you have the following installed on your machine:
-
-- [ ] [Python 3](https://realpython.com/installing-python/)
-- [ ] [Pipenv](https://pipenv.readthedocs.io/en/latest/#install-pipenv-today)
-- [ ] [Redis](http://redis.io/)
-- [ ] Git
-- [ ] An IDE or Editor of your choice
-
 ### Running the Application
 
 1. Clone the repository
@@ -59,9 +41,3 @@ $ flower -A app.client --port=5555
 
 9. Check the receipient email inbox for the scheduled message after the time has ellapsed
 
-
-## Contribution
-
-Please feel free to raise issues using this [template](./.github/ISSUE_TEMPLATE.md) and I'll get back to you.
-
-You can also fork the repository, make changes and submit a Pull Request using this [template](./.github/PULL_REQUEST_TEMPLATE.md).
